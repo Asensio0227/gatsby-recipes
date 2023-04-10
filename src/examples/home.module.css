@@ -1,0 +1,12 @@
+.page {
+  color: blue;
+}
+.page h1 {
+  color: #28cab2;
+  letter-spacing: 1px;
+  font-weight:700;
+  text-transform: capitalize;
+}
+.text {
+  text-transform: capitalize;
+}
