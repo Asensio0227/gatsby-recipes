@@ -61,7 +61,7 @@ const RecipeTemplate = ({ data }) => {
                 Tags : {tags.map((tag, index) => {
                                 const slug = slugify(tag, { lower: true });
 
-                  return <Link to={`/tags${slug}`} ke={index}>{tag}</Link>
+                  return <Link to={`/tags${slug}`} key={index}>{tag}</Link>
                 })}
               </p>
             </article>
